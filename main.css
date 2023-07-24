@@ -3,10 +3,21 @@
     padding: 0;
 }
 
-.body {
-    height: 100vh;
+body {
+    width: 718px;
+    height: 800px;
+
 }
 .gd_mainContainer{
-    width: auto;
+    width: 718px;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
     height: auto;
+}
+.portfolio{
+    width: 718px;
+    max-width: 100%;
+    background: white;
+    margin: 0 auto;
 }

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+
+}
+.gd_mainContainer{
+    display: inline;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+.portfolio{
+    width: 718px;
+    max-width: 100%;
+    background: white;
+    margin: 0 auto;
+    padding: 32px;
+}
+.JKC_Head{
+    font-size: 54px;
+}
+.JKC_Tech{
+    margin-bottom: 48px;
+}
+.JKC_img1{
+    margin-bottom: 3rem;
+}
+.JKC_div{
+    margin-bottom: 48px;
+}
+
+a{
+    color: rgb(245, 158, 158);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

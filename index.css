@@ -61,7 +61,7 @@ a {
     align-items: center;
     font-size: 5em;
 
-    background-color: lightpink;
+    background-color: #d6f9d8;
 }
 
 
@@ -241,9 +241,10 @@ a {
 }
 
 .front {
+    display: block;
     width: 0px;
     height: 0px;
-    border-bottom: calc(125px * 1.732) solid rgb(245, 158, 158);
+    border-bottom: calc(125px * 1.732) solid rgb(245, 158, 158, 0.5);
     border-left: 125px solid transparent;
     border-right: 125px solid transparent;
     border-top: 0px;
@@ -253,13 +254,21 @@ a {
     transition: transform 0.5s, opacity 0.5s;
     /* animation: gd_scale 1s ease normal; */
 }
+.gd_jkc{
+    display: block;
+    position: relative;
+    right: -25px;
+    top: 214px;
+    color: #222;
+    transform: rotate(180deg);
+}
 
 
 
 .back {
     width: 0px;
     height: 0px;
-    border-bottom: calc(125px * 1.732) solid rgb(183, 206, 83);
+    border-bottom: calc(125px * 1.732) solid rgb(135, 207, 235, 0.5);
     border-left: 125px solid transparent;
     border-right: 125px solid transparent;
     border-top: 0px;
@@ -269,11 +278,19 @@ a {
     transition: transform 0.5s, opacity 0.5s;
 
 }
+.gd_coffee{
+    display: block;
+    position: relative;
+    right: -50px;
+    top: 214px;
+    color: #222;
+    transform: rotate(180deg);
+}
 
 .top {
     width: 0px;
     height: 0px;
-    border-bottom: calc(125px * 1.732) solid rgb(47, 212, 32);
+    border-bottom: calc(125px * 1.732) solid rgb(249, 196, 98, 0.5);
     border-left: 125px solid transparent;
     border-right: 125px solid transparent;
     border-top: 0px;
@@ -282,11 +299,19 @@ a {
     transform: rotate(300deg);
     transition: transform 0.5s, opacity 0.5s;
 }
+.gd_gg{
+    display: block;
+    position: relative;
+    right: -25px;
+    top: 214px;
+    color: #222;
+    transform: rotate(180deg);
+}
 
 .bottom {
     width: 0px;
     height: 0px;
-    border-bottom: calc(125px * 1.732) solid rgb(11, 100, 216);
+    border-bottom: calc(125px * 1.732) solid rgb(16, 219, 108,0.5);
     border-left: 125px solid transparent;
     border-right: 125px solid transparent;
     border-top: 0px;
@@ -295,11 +320,18 @@ a {
     transform: rotate(0deg);
     transition: transform 0.5s, opacity 0.5s;
 }
-
+.gd_ko{
+    display: block;
+    position: relative;
+    right: -25px;
+    top: 214px;
+    color: #222;
+    transform: rotate(180deg);
+}
 .left {
     width: 0px;
     height: 0px;
-    border-bottom: calc(125px * 1.732) solid rgb(199, 29, 233);
+    border-bottom: calc(125px * 1.732) solid rgba(199, 29, 233, 0.164);
     border-left: 125px solid transparent;
     border-right: 125px solid transparent;
     border-top: 0px;
@@ -313,7 +345,7 @@ a {
 .right {
     width: 0px;
     height: 0px;
-    border-bottom: calc(125px * 1.732) solid rgb(236, 1, 12);
+    border-bottom: calc(125px * 1.732) solid rgba(236, 1, 13, 0.151);
     border-left: 125px solid transparent;
     border-right: 125px solid transparent;
     border-top: 0px;
@@ -359,7 +391,11 @@ a {
 }
 
 #gd_sidename{
-    /* top:120%; */
-    left:20%;
-    /* transform: rotate(270deg); */
+
+    position: relative;
+    top:130px;
+    left:-100px;
+    transform: rotate(321deg);
+    font-size: 1.8em;
+    color: #d7b9b9;
 }

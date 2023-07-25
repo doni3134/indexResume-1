@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'HCRDotum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HCRDotum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /* 초기화 */
 * {
     margin: 0;
     padding: 0;
+    font-family: 'HCRDotum';
 }
 
 li {
@@ -9,9 +16,9 @@ li {
 }
 
 body {
-    font-family: 'NanumSquare', bold;
     margin: 0 auto;
 }
+
 
 a {
     text-decoration: none;
@@ -195,6 +202,7 @@ a {
 } */
 
 .gd_contianer3 {
+    font-family: ;
     height: 400px;
     width: 400px;
     margin: auto;
@@ -323,7 +331,7 @@ a {
 .gd_pf{
     display: block;
     position: relative;
-    right: -55px;
+    right: -60px;
     top: 214px;
     color: #222;
     transform: rotate(180deg);
